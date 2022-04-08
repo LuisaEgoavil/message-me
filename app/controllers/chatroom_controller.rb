@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class ChatroomController < ApplicationController
-  def index
+  def index 
+    @messages = Message.all
   end
 end
