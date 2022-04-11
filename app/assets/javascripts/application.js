@@ -19,9 +19,9 @@
 //add this for the dropdown menu
 $(document).on('turbolinks:load', function() {
     $('.ui.dropdown').dropdown();
-})
 
-//for messages display 
-$('.message .close').on('click', function() {
-    $(this).closest('.message').transition('fade');
-});
+    //for messages display 
+    $('.message .close').on('click', function() {
+        $(this).closest('.message').transition('fade');
+    });
+})
